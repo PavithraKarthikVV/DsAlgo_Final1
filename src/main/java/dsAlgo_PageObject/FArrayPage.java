@@ -54,8 +54,8 @@ public void practice_click()
 	practicequestionlink.click();
 }
 public void enter_code(String code) throws InterruptedException 
-{	PageUtils.implicit_wait(driver, tryEditor);
-	
+{	//PageUtils.implicit_wait(driver, tryEditor);
+	Thread.sleep(1000);
 	PageUtils.entercode(driver,tryEditor, code);
 	}
 public void click_run() 

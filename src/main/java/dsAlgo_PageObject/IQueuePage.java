@@ -61,7 +61,6 @@ public class IQueuePage {
 					tryEditor.sendKeys(pCode);
 					runBtn.click();		       
 					result=output.getText();
-					System.out.println("outprut result is"+result);
 					return result;
 			}
 		  

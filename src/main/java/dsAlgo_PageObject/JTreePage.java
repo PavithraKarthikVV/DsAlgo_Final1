@@ -52,7 +52,7 @@ public void practice_click()
 public void enter_code(String code) throws InterruptedException 
 {	//WebElement e=driver.switchTo().activeElement();
 //	pageutil.implicit_wait(driver, e);
-	PageUtils.mouse_action(driver, tryEditor);
+	//PageUtils.mouse_action(driver, tryEditor);
 	PageUtils.entercode(driver, tryEditor, code);
 	}
 public void click_run() 

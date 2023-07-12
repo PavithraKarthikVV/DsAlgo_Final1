@@ -61,7 +61,7 @@ public class KGraphPage {
 			PageUtils.menu_click(driver, topics, options);
 			    	try_Btn.click();			
 					//Thread.sleep(3000);
-			    	PageUtils.mouse_action(driver, menu_List);
+			    	//PageUtils.mouse_action(driver, menu_List);
 					tryEditor.sendKeys(pCode);
 					runBtn.click();		       
 					//Thread.sleep(3000);	
