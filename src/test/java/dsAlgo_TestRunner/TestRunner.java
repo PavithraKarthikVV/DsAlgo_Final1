@@ -1,4 +1,28 @@
 package dsAlgo_TestRunner;
+import org.junit.runner.RunWith;
+
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(
+		plugin = {"pretty","html:target/cucumber.html" ,"json:target/cucumber.json",
+				 "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
+				 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
+		monochrome = true,
+		features = {"src/test/resources/Features"},
+		glue = {"dsAlgo_StepDefinition","hooks"}
+		)
+
+public class TestRunner{
+
+}
+
+
+
+
+
+/*package dsAlgo_TestRunner;
 
 	import org.testng.annotations.DataProvider;
 
@@ -23,7 +47,7 @@ package dsAlgo_TestRunner;
 			return super.scenarios();
 	    }
 		
-		}	
+		}	*/
 	
 	
 	
