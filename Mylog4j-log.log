@@ -1208,3 +1208,6 @@
 [INFO ]2023-07-10 19:14:34.697 [main]LoggerLoad-Closing App
 [INFO ]2023-07-11 11:19:23.866 [main]LoggerLoad-Launching apphttps://dsportalapp.herokuapp.com/
 [INFO ]2023-07-11 11:25:13.091 [main]LoggerLoad-Closing App
+[INFO ]2023-07-12 13:27:50.512 [main]LoggerLoad-Launching apphttps://dsportalapp.herokuapp.com/
+[INFO ]2023-07-12 13:28:48.289 [main]LoggerLoad-Scenario Failed
+[INFO ]2023-07-12 13:33:38.788 [main]LoggerLoad-Closing App
