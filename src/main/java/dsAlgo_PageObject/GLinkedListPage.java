@@ -69,6 +69,7 @@ public class GLinkedListPage {
 				try_Btn.click();			
 				//PageUtils.implicit_wait(driver, tryEditor)
 				//PageUtils.mouse_action(driver, tryEditor);
+				Thread.sleep(1000);
 				tryEditor.sendKeys(pCode);
 				runBtn.click();		       
 				//Thread.sleep(3000);	
