@@ -34,7 +34,7 @@ public class Hooks {
 		prop=configReader.init_prop();	
 		String browserName=prop.getProperty("browser");
 		String geturl=prop.getProperty("url");
-		System.out.println("launching the browser from the hooks page");
+		LoggerLoad.info("launching the browser from the hooks page");
 		driverFactory=new DriverFactory();
 		System.out.println("heloo browsername launch");
 		driver=driverFactory.init_driver(browserName,geturl);
@@ -64,7 +64,7 @@ public class Hooks {
 	public void tearDown(Scenario scenario)
 	{
 		if(scenario.isFailed())//take ScreenShot;
-		{	LoggerLoad	.error("Scenario Failed");
+		{	LoggerLoad.error("Scenario Failed");
 			String screenShotName=scenario.getName().replaceAll("", "_");
 			byte[] sourcePath=((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
 			scenario.attach(sourcePath,"image/png", screenShotName);

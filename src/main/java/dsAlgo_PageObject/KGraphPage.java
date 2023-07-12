@@ -43,7 +43,7 @@ public class KGraphPage {
 
 		public void drop_downClick(String menuitem) {
 			drop_down.click();	
-			pageUtil.menu_click(driver, topics,menuitem);
+			PageUtils.menu_click(driver, topics,menuitem);
 		}	
 		
 		public String get_url()
@@ -56,36 +56,12 @@ public class KGraphPage {
 			return graph_title;
 		}
 
-
-//		public String validPythonCode(String pCode, String options ) throws InterruptedException {
-//		
-//			for (int i=1; i<=topics.size(); i++) {
-//			 WebElement topicselt = driver.findElement(By.xpath("/html/body/div[2]/ul["+i+"]/a "));		 
-//			 String str=topicselt.getText();		
-//				if(str.equalsIgnoreCase(options))
-//				{  
-//				    topicselt.click();
-//					try_Btn.click();			
-//					Thread.sleep(3000);
-//					tryEditor.sendKeys(pCode);
-//					runBtn.click();		       
-//					Thread.sleep(3000);	
-//					result=output.getText();
-//					System.out.println("outprut result is"+result);
-//					driver.navigate().back();
-//					driver.navigate().back();
-//					break;
-//				}	
-//				Thread.sleep(3000);
-//				
-//			}
-//		  return result;
-//		}
 		public String validPythonCode(String pCode, String options ) throws InterruptedException {
 			
-		            pageUtil.menu_click(driver, topics, options);
+			PageUtils.menu_click(driver, topics, options);
 			    	try_Btn.click();			
 					//Thread.sleep(3000);
+			    	PageUtils.mouse_action(driver, menu_List);
 					tryEditor.sendKeys(pCode);
 					runBtn.click();		       
 					//Thread.sleep(3000);	
@@ -100,7 +76,7 @@ public class KGraphPage {
 		
 		public String inValidPythonCode(String pCode, String options ) throws InterruptedException {		
 			
-			       pageUtil.menu_click(driver, topics, options);
+			PageUtils.menu_click(driver, topics, options);
 				 
 					try_Btn.click();			
 					//Thread.sleep(3000);
@@ -126,7 +102,7 @@ public class KGraphPage {
 
 		public void practice_link(String practice) {
 			
-			pageUtil.practice_click(practice_QuestionsLink);
+			PageUtils.practice_click(practice_QuestionsLink);
 		}
 	}
 

@@ -30,40 +30,40 @@ public class JTreePage {
 	 private PageUtils pageutil=new PageUtils();	
 	
 public void typeoftree_click() 
-{  	pageutil.scrolldown(driver);
-	pageutil.implicit_wait(driver, typeoftree);
+{  	PageUtils.scrolldown(driver);
+PageUtils.implicit_wait(driver, typeoftree);
 	typeoftree.click();
 }
 public void treemenu_click(String option)
-{pageutil.menu_click(driver, treemenu, option);}
+{PageUtils.menu_click(driver, treemenu, option);}
 
 public void practicemenu_click(String option)
-{pageutil.menu_click(driver, practicemenu, option);}
+{PageUtils.menu_click(driver, practicemenu, option);}
 
 
 public void tryedit_click()
-{	pageutil.scrolldown(driver);
-	pageutil.scrolldown(driver);
+{	PageUtils.scrolldown(driver);
+PageUtils.scrolldown(driver);
 	tryhere.click();} 
 public void practice_click()
-{	pageutil.implicit_wait(driver, practicequestionlink);
+{	PageUtils.implicit_wait(driver, practicequestionlink);
 	practicequestionlink.click();
 }
 public void enter_code(String code) throws InterruptedException 
 {	//WebElement e=driver.switchTo().activeElement();
 //	pageutil.implicit_wait(driver, e);
-Thread.sleep(1000);
-	pageutil.entercode(driver, tryEditor, code);
+	PageUtils.mouse_action(driver, tryEditor);
+	PageUtils.entercode(driver, tryEditor, code);
 	}
 public void click_run() 
 {	
-	pageutil.mouse_action(driver, runbtn);
-	pageutil.implicit_wait(driver,runbtn);
+	PageUtils.mouse_action(driver, runbtn);
+	PageUtils.implicit_wait(driver,runbtn);
 	runbtn.click();
 }
 public void click_submit()
 {
-	pageutil.mouse_action(driver, submitbtn);
+	PageUtils.mouse_action(driver, submitbtn);
 	submitbtn.click();
 }
 public String present_result()

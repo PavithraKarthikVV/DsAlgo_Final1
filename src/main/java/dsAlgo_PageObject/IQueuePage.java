@@ -40,7 +40,7 @@ public class IQueuePage {
 
 		public void drop_downClick(String menuitem) {
 			drop_down.click();	
-			pageUtil.menu_click(driver, topics,menuitem);
+			PageUtils.menu_click(driver, topics,menuitem);
 		}	
 		
 		public String get_url()
@@ -56,7 +56,7 @@ public class IQueuePage {
 
 		public String validPythonCode(String pCode, String options ) throws InterruptedException {
 			
-		            pageUtil.menu_click(driver, topics, options);
+					PageUtils.menu_click(driver, topics, options);
 			    	try_Btn.click();			
 					tryEditor.sendKeys(pCode);
 					runBtn.click();		       
@@ -68,9 +68,9 @@ public class IQueuePage {
 			
 		public String inValidPythonCode(String pCode, String options ) throws InterruptedException {		
 			
-			       pageUtil.menu_click(driver, topics, options);
-				 
-					try_Btn.click();			
+					PageUtils.menu_click(driver, topics, options);
+				 	try_Btn.click();
+					PageUtils.mouse_action(driver, tryEditor);
 					tryEditor.sendKeys(pCode);
 					runBtn.click();		       
 					alert=isAlertPresent();
@@ -92,7 +92,7 @@ public class IQueuePage {
 
 		public void practice_link(String practice) {
 			
-			pageUtil.practice_click(practice_QuestionsLink);
+			PageUtils.practice_click(practice_QuestionsLink);
 		}
 
 }

@@ -43,7 +43,7 @@ public class GLinkedListPage {
 
 	public void drop_downClick(String menuitem) {
 		drop_down.click();	
-		pageUtil.menu_click(driver, topics,menuitem);
+		PageUtils.menu_click(driver, topics,menuitem);
 	}	
 	
 	public String get_url()
@@ -68,6 +68,7 @@ public class GLinkedListPage {
 			    topicselt.click();
 				try_Btn.click();			
 				//PageUtils.implicit_wait(driver, tryEditor)
+				PageUtils.mouse_action(driver, tryEditor);
 				tryEditor.sendKeys(pCode);
 				runBtn.click();		       
 				//Thread.sleep(3000);	
@@ -86,10 +87,10 @@ public class GLinkedListPage {
 		
 		for (int i=1; i<=topics.size(); i++) {
 		 WebElement topicselt = driver.findElement(By.xpath("/html/body/div[2]/ul["+i+"]/a "));	
-		 pageUtil.mouse_action(driver, topicselt);
+		 PageUtils.mouse_action(driver, topicselt);
 		 String str=topicselt.getText();		
 			if(str.equals(options))
-			{   pageUtil.scrolldown(driver,topicselt);
+			{   PageUtils.scrolldown(driver,topicselt);
 			    topicselt.click();
 				try_Btn.click();			
 				//Thread.sleep(3000);
@@ -116,6 +117,6 @@ public class GLinkedListPage {
 
 	public void practice_link(String practice) {
 	//	pageUtil.implicit_wait(driver, practice_QuestionsLink);
-		pageUtil.practice_click(practice_QuestionsLink);
+		PageUtils.practice_click(practice_QuestionsLink);
 	}
 }
