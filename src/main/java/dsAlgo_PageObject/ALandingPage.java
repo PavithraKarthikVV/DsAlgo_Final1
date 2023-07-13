@@ -25,7 +25,7 @@ public class ALandingPage {
     }
     
     public BHomePage click_Btn() throws InterruptedException
-    {   PageUtils.implicit_wait(driver, getStarted_btn);
+    {   PageUtils.explicit_wait(driver, getStarted_btn);
     	getStarted_btn.click();
 		return new BHomePage(driver);    	
     }

@@ -31,7 +31,7 @@ public class HStackPage {
 		 
 		 public void operationstack_click() 
 		 {  	pageutil.scrolldown(driver);
-		 	pageutil.implicit_wait(driver, operationstackpython);
+		 	pageutil.explicit_wait(driver, operationstackpython);
 		 	operationstackpython.click();
 		 }
 		 public void stackmenu_click(String option)
@@ -46,19 +46,19 @@ public class HStackPage {
 		 	pageutil.scrolldown(driver);
 		 	tryhere.click();} 
 		 public void practice_click()
-		 {	//pageutil.implicit_wait(driver, practicequestionlink);
+		 {	//pageutil.explicit_wait(driver, practicequestionlink);
 		 	practicequestionlink.click();
 		 }
 		 public void enter_code(String code) 
 		 {	
 //		 	WebElement e=driver.switchTo().activeElement();
-//		 	pageutil.implicit_wait(driver, e);
+//		 	pageutil.explicit_wait(driver, e);
 		 	pageutil.entercode(driver, tryEditor, code);
 		 	}
 		 public void click_run() 
 		 {	
 		 	pageutil.mouse_action(driver, runbtn);
-		 	//pageutil.implicit_wait(driver,runbtn);
+		 	//pageutil.explicit_wait(driver,runbtn);
 		 	runbtn.click();
 		 }
 		 public void click_submit()

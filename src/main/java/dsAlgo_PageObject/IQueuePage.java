@@ -69,7 +69,7 @@ public class IQueuePage {
 			
 					PageUtils.menu_click(driver, topics, options);
 				 	try_Btn.click();
-					PageUtils.mouse_action(driver, tryEditor);
+					//PageUtils.mouse_action(driver, tryEditor);
 					tryEditor.sendKeys(pCode);
 					runBtn.click();		       
 					alert=isAlertPresent();

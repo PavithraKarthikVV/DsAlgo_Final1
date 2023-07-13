@@ -67,7 +67,7 @@ public class GLinkedListPage {
 			{  
 			    topicselt.click();
 				try_Btn.click();			
-				//PageUtils.implicit_wait(driver, tryEditor)
+				//PageUtils.explicit_wait(driver, tryEditor)
 				//PageUtils.mouse_action(driver, tryEditor);
 				Thread.sleep(1000);
 				tryEditor.sendKeys(pCode);
@@ -117,7 +117,7 @@ public class GLinkedListPage {
 	}
 
 	public void practice_link(String practice) {
-	//	pageUtil.implicit_wait(driver, practice_QuestionsLink);
+	//	pageUtil.explicit_wait(driver, practice_QuestionsLink);
 		PageUtils.practice_click(practice_QuestionsLink);
 	}
 }

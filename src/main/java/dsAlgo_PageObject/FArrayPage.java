@@ -35,7 +35,7 @@ public class FArrayPage extends PageUtils{
 	
 public void arrayinpython_click() 
 {  	PageUtils.scrolldown(driver);
-	//PageUtils.implicit_wait(driver, arrayinpython);
+	//PageUtils.explicit_wait(driver, arrayinpython);
 	arrayinpython.click();
 }
 public void arrymenu_click(String option)
@@ -50,18 +50,18 @@ public void tryedit_click()
 PageUtils.scrolldown(driver);
 	tryhere.click();} 
 public void practice_click()
-{	//PageUtils.implicit_wait(driver, practicequestionlink);
+{	//PageUtils.explicit_wait(driver, practicequestionlink);
 	practicequestionlink.click();
 }
 public void enter_code(String code) throws InterruptedException 
-{	//PageUtils.implicit_wait(driver, tryEditor);
-	Thread.sleep(2000);
-	PageUtils.entercode(driver,tryEditor, code);
+{//PageUtils.explicit_wait(driver, tryEditor);
+Thread.sleep(3000);
+PageUtils.entercode(driver, tryEditor, code);
 	}
 public void click_run() 
 {	
 	PageUtils.mouse_action(driver, runbtn);
-	//PageUtils.implicit_wait(driver,runbtn);
+	//PageUtils.explicit_wait(driver,runbtn);
 	runbtn.click();
 }
 public void click_submit()

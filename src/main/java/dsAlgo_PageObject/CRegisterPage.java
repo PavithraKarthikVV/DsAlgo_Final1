@@ -56,7 +56,7 @@ public class CRegisterPage {
 		
 		public String clickregisterWith_username(String usrnme) throws InterruptedException
 		{ 	
-			PageUtils.implicit_wait(driver, username);
+			PageUtils.explicit_wait(driver, username);
 			//new WebDriverWait(driver,Duration.ofSeconds(4)).until(ExpectedConditions.visibilityOf(registerBtn));
 			username.sendKeys(usrnme);
 			System.out.println(usrnme);
@@ -99,7 +99,7 @@ public class CRegisterPage {
 		
 		public String invalidDataCredentials(String un,String pwd,String cpwd) throws InterruptedException
 		{   
-			PageUtils.implicit_wait(driver, username);
+			PageUtils.explicit_wait(driver, username);
 			username.sendKeys(un);
 			password.sendKeys(pwd);
 			confirm_password.sendKeys(cpwd);
@@ -112,7 +112,7 @@ public class CRegisterPage {
 
 		public DLoginPage validDataCredentials(String uname, String pwd, String cpwd) throws InterruptedException {
 			
-			PageUtils.implicit_wait(driver, username);
+			PageUtils.explicit_wait(driver, username);
 			String s = RandomStringUtils.randomAlphanumeric(6); 
 			username.sendKeys(s+"@Numpyninja");		
 			//username.sendKeys(uname);

@@ -31,7 +31,7 @@ public class JTreePage {
 	
 public void typeoftree_click() 
 {  	PageUtils.scrolldown(driver);
-PageUtils.implicit_wait(driver, typeoftree);
+PageUtils.explicit_wait(driver, typeoftree);
 	typeoftree.click();
 }
 public void treemenu_click(String option)
@@ -46,19 +46,20 @@ public void tryedit_click()
 PageUtils.scrolldown(driver);
 	tryhere.click();} 
 public void practice_click()
-{	PageUtils.implicit_wait(driver, practicequestionlink);
+{	PageUtils.explicit_wait(driver, practicequestionlink);
 	practicequestionlink.click();
 }
 public void enter_code(String code) throws InterruptedException 
 {	//WebElement e=driver.switchTo().activeElement();
-//	pageutil.implicit_wait(driver, e);
+//pageutil.explicit_wait(driver, tryEditor);
 	//PageUtils.mouse_action(driver, tryEditor);
+	Thread.sleep(1000);
 	PageUtils.entercode(driver, tryEditor, code);
 	}
 public void click_run() 
 {	
 	PageUtils.mouse_action(driver, runbtn);
-	PageUtils.implicit_wait(driver,runbtn);
+	PageUtils.explicit_wait(driver,runbtn);
 	runbtn.click();
 }
 public void click_submit()

@@ -39,15 +39,14 @@ public class EDataStructurePage {
 	PageUtils.scrolldown(driver);
 		tryhere.click();} 
 	public void enter_code(String code) throws InterruptedException 
-	{	//PageUtils.implicit_wait(driver, tryEditor);
-		//PageUtils.mouse_action(driver, tryEditor);
+	{	
 		Thread.sleep(2000);
 		PageUtils.entercode(driver,tryEditor, code);
 		}
 	public void click_run() 
 	{	
 		PageUtils.mouse_action(driver, runbtn);
-		PageUtils.implicit_wait(driver,runbtn);
+		PageUtils.explicit_wait(driver,runbtn);
 		runbtn.click();
 	}
 	public void click_submit()

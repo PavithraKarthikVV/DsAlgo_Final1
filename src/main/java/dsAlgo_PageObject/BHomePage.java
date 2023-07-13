@@ -48,7 +48,7 @@ public class BHomePage {
 	}
 	
 	 public BHomePage click_Btn() throws InterruptedException
-	    {   PageUtils.implicit_wait(driver, getStarted_btn);
+	    {   PageUtils.explicit_wait(driver, getStarted_btn);
 	    	getStarted_btn.click();
 			return new BHomePage(driver);    	
 	    }
@@ -92,13 +92,13 @@ public class BHomePage {
 	}	
 	
 	public DLoginPage signin_Btn()
-	{	PageUtils.implicit_wait(driver, signIn);
+	{	PageUtils.explicit_wait(driver, signIn);
 		signIn.click();
 		return new DLoginPage(driver);
 	}
 	
 	public CRegisterPage register_Btn() throws InterruptedException
-	{  PageUtils.implicit_wait(driver, register);
+	{  PageUtils.explicit_wait(driver, register);
 		register.click();		
 		return new CRegisterPage(driver);
 	}

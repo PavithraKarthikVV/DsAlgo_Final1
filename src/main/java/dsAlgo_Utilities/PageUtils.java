@@ -27,13 +27,13 @@ public class PageUtils {
 		{	JavascriptExecutor jse = (JavascriptExecutor)driver;
 			jse.executeScript("window.scrollBy(0,500)", e);}
 	 
-	 	public static void implicit_wait(WebDriver driver,WebElement e) {
-		new WebDriverWait(driver,Duration.ofSeconds(5)).until(ExpectedConditions.visibilityOf(e));}
+	 	public static void explicit_wait(WebDriver driver,WebElement e) {
+		new WebDriverWait(driver,Duration.ofSeconds(40)).until(ExpectedConditions.visibilityOf(e));}
 	
 	 	public static void menu_click(WebDriver driver,List<WebElement> e,String option) {
 		scrolldown(driver);
 		for (WebElement item : e) {
-		implicit_wait(driver, item);
+		explicit_wait(driver, item);
 		if(item.getText().equalsIgnoreCase(option))
 		{item.click();
 		 break;		}}
