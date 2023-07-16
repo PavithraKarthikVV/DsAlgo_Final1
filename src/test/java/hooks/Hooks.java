@@ -9,8 +9,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import dsAlgo_Driverfactory.DriverFactory;
-import dsAlgo_PageObject.ALandingPage;
 import dsAlgo_PageObject.BHomePage;
+import dsAlgo_TestRunner.TestRunner;
 import dsAlgo_Utilities.ConfigReader;
 import dsAlgo_Utilities.LoggerLoad;
 import io.cucumber.java.AfterAll;
@@ -33,11 +33,13 @@ public class Hooks {
 		configReader =new ConfigReader();
 		prop=configReader.init_prop();	
 		String browserName=prop.getProperty("browser");
+		//String browserName = TestRunner.BROWSER.get();
 		String geturl=prop.getProperty("url");
 		LoggerLoad.info("launching the browser from the hooks page");
 		driverFactory=new DriverFactory();
 		System.out.println("heloo browsername launch");
 		driver=driverFactory.init_driver(browserName,geturl);
+		
 		LoggerLoad.info("Launching app"+geturl);
 				
 		}

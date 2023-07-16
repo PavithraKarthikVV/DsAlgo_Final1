@@ -1580,3 +1580,108 @@
 [INFO ]2023-07-13 10:16:29.975 [main]LoggerLoad-launching the browser from the hooks page
 [INFO ]2023-07-13 10:16:39.490 [main]LoggerLoad-Launching apphttps://dsportalapp.herokuapp.com/
 [INFO ]2023-07-13 10:21:26.378 [main]LoggerLoad-Closing App
+[INFO ]2023-07-14 11:01:52.355 [TestNG-tests-2]LoggerLoad-setting the browser type from test runner class edge
+[INFO ]2023-07-14 11:01:52.355 [TestNG-tests-1]LoggerLoad-setting the browser type from test runner class chrome
+[INFO ]2023-07-14 11:01:53.795 [TestNG-tests-2]LoggerLoad-launching the browser from the hooks page
+[INFO ]2023-07-14 11:01:53.820 [TestNG-tests-1]LoggerLoad-launching the browser from the hooks page
+[INFO ]2023-07-14 11:02:07.189 [TestNG-tests-1]LoggerLoad-Launching apphttps://dsportalapp.herokuapp.com/
+[INFO ]2023-07-14 11:02:14.098 [TestNG-tests-2]LoggerLoad-Launching apphttps://dsportalapp.herokuapp.com/
+[INFO ]2023-07-14 11:04:34.672 [TestNG-tests-1]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:04:55.587 [TestNG-tests-1]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:05:35.027 [TestNG-tests-1]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:05:52.522 [TestNG-tests-1]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:06:09.646 [TestNG-tests-1]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:06:31.777 [TestNG-tests-1]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:06:58.789 [TestNG-tests-1]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:07:15.306 [TestNG-tests-1]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:07:31.854 [TestNG-tests-1]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:07:49.390 [TestNG-tests-1]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:08:20.645 [TestNG-tests-1]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:10:55.070 [main]LoggerLoad-launching the browser from the hooks page
+[INFO ]2023-07-14 11:13:04.531 [TestNG-tests-2]LoggerLoad-setting the browser type from test runner class edge
+[INFO ]2023-07-14 11:13:04.531 [TestNG-tests-1]LoggerLoad-setting the browser type from test runner class chrome
+[INFO ]2023-07-14 11:13:06.332 [TestNG-tests-2]LoggerLoad-launching the browser from the hooks page
+[INFO ]2023-07-14 11:13:06.332 [TestNG-tests-1]LoggerLoad-launching the browser from the hooks page
+[INFO ]2023-07-14 11:13:19.097 [TestNG-tests-2]LoggerLoad-Launching apphttps://dsportalapp.herokuapp.com/
+[INFO ]2023-07-14 11:13:20.460 [TestNG-tests-1]LoggerLoad-Launching apphttps://dsportalapp.herokuapp.com/
+[INFO ]2023-07-14 11:13:30.036 [TestNG-PoolService-3]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:30.191 [TestNG-PoolService-8]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:30.195 [TestNG-PoolService-0]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:30.026 [TestNG-PoolService-3]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:30.024 [TestNG-PoolService-7]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:30.171 [TestNG-PoolService-1]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:30.169 [TestNG-PoolService-7]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:30.218 [TestNG-PoolService-5]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:30.229 [TestNG-PoolService-2]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:30.035 [TestNG-PoolService-6]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:30.023 [TestNG-PoolService-2]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:30.043 [TestNG-PoolService-4]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:30.159 [TestNG-PoolService-4]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:30.242 [TestNG-PoolService-8]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:30.023 [TestNG-PoolService-9]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:30.342 [TestNG-PoolService-1]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:30.253 [TestNG-PoolService-9]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:30.354 [TestNG-PoolService-0]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:30.376 [TestNG-PoolService-5]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:33.708 [TestNG-PoolService-4]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:33.741 [TestNG-PoolService-6]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:33.805 [TestNG-PoolService-7]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:33.923 [TestNG-PoolService-3]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:33.977 [TestNG-PoolService-0]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:34.424 [TestNG-PoolService-1]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:34.434 [TestNG-PoolService-9]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:34.451 [TestNG-PoolService-9]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:34.494 [TestNG-PoolService-3]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:34.778 [TestNG-PoolService-1]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:35.531 [TestNG-PoolService-7]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:35.924 [TestNG-PoolService-5]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:36.364 [TestNG-PoolService-2]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:36.769 [TestNG-PoolService-8]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:37.061 [TestNG-PoolService-4]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:37.420 [TestNG-PoolService-2]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:37.976 [TestNG-PoolService-8]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:38.603 [TestNG-PoolService-6]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:38.991 [TestNG-PoolService-0]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:39.611 [TestNG-PoolService-5]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:40.342 [TestNG-PoolService-4]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:40.805 [TestNG-PoolService-6]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:42.082 [TestNG-PoolService-7]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:42.320 [TestNG-PoolService-3]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:42.790 [TestNG-PoolService-0]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:43.252 [TestNG-PoolService-1]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:43.760 [TestNG-PoolService-9]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:44.573 [TestNG-PoolService-9]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:45.205 [TestNG-PoolService-3]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:45.559 [TestNG-PoolService-1]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:45.991 [TestNG-PoolService-7]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:46.334 [TestNG-PoolService-5]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:46.743 [TestNG-PoolService-2]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:47.370 [TestNG-PoolService-8]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:47.805 [TestNG-PoolService-4]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:48.259 [TestNG-PoolService-2]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:48.573 [TestNG-PoolService-8]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:48.815 [TestNG-PoolService-6]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:49.605 [TestNG-PoolService-0]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:50.178 [TestNG-PoolService-5]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:50.810 [TestNG-PoolService-4]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:50.924 [TestNG-PoolService-6]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:51.276 [TestNG-PoolService-7]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:51.586 [TestNG-PoolService-3]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:52.015 [TestNG-PoolService-0]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:52.483 [TestNG-PoolService-1]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:52.814 [TestNG-PoolService-9]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:53.181 [TestNG-PoolService-9]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:53.626 [TestNG-PoolService-3]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:54.031 [TestNG-PoolService-1]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:54.620 [TestNG-PoolService-7]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:55.235 [TestNG-PoolService-5]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:55.960 [TestNG-PoolService-2]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:56.941 [TestNG-PoolService-8]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:57.759 [TestNG-PoolService-4]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:58.674 [TestNG-PoolService-2]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:59.039 [TestNG-PoolService-8]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:13:59.271 [TestNG-PoolService-6]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:19:20.618 [main]LoggerLoad-launching the browser from the hooks page
+[INFO ]2023-07-14 11:19:27.704 [main]LoggerLoad-Launching apphttps://dsportalapp.herokuapp.com/
+[INFO ]2023-07-14 11:20:28.801 [main]LoggerLoad-Scenario Failed
+[INFO ]2023-07-14 11:26:42.226 [main]LoggerLoad-Closing App
